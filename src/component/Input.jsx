@@ -16,7 +16,7 @@ const Input = (prop) => {
 
   return (
     <div>
-      {timePicker ? (
+      {timePicker && (
         <TimePicker
           setHour={setHour}
           setMinute={setMinute}
@@ -24,11 +24,9 @@ const Input = (prop) => {
           setTimePicker={setTimePicker}
           timePicker={timePicker}
         />
-      ) : (
-        ""
       )}
       <input
-        className="text-black"
+        className="text-black p-[5px] rounded-[5px]"
         type="text"
         placeholder="Pick Time"
         value={temp}

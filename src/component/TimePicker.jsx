@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const TimePicker = (prop) => {
   const { setHour, setMinute, setPeriod, timePicker, setTimePicker } = prop;
@@ -10,12 +10,12 @@ const TimePicker = (prop) => {
     minutepick.push(i);
   }
   return (
-    <div className="h-[310px] absolute z-2 bottom-[150px] flex gap-[20px] list-none bg-white text-black p-[10px] rounded-[4px] ">
+    <div className="h-[310px] absolute z-2 bottom-[160px] flex gap-[20px] list-none bg-white text-black p-[10px] rounded-[4px] ">
       <div>
         {" "}
         {hourpick.map((e, index) => {
           return (
-            <li key={index}>
+              <li key={index}>
               <button onClick={() => setHour(e)}>{e}</button>
             </li>
           );

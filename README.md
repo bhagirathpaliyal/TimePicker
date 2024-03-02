@@ -1,8 +1,23 @@
-# React + Vite
+# ReactJS Timepicker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Timepicker Demo](insert_link_to_demo_gif_or_screenshot.gif)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to the ReactJS Timepicker project! This lightweight and customizable time selection component is built using HTML, CSS, JavaScript, ReactJS, and styled with Tailwind CSS. Simplify time input in your web applications with this easy-to-use and aesthetically pleasing timepicker.
+
+## Features
+
+- **Intuitive UI:** Click the input to reveal a modal with selectable options for Hour, Minute, and Period (AM/PM).
+- **Seamless Confirmation:** Effortlessly select your desired time and confirm it with the "Done" button.
+
+
+
+## Getting Started
+
+To use the Timepicker in your project, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/bhagirathpaliyal/TimePicker.git
